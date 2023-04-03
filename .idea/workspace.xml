@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bd3e74f-b239-467c-b294-6a224adad81c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pybo/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pybo/question_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pybo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pybo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pybo/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pybo/question_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pybo/question_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pybo/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pybo/question_list.html" afterDir="false" />
     </list>
@@ -52,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/dev/django/mysite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "Console",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/django/mysite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
       <module name="mysite" />
@@ -108,7 +111,8 @@
       <workItem from="1679454369039" duration="3214000" />
       <workItem from="1679457654217" duration="791000" />
       <workItem from="1679886739242" duration="2344000" />
-      <workItem from="1680059105600" duration="2964000" />
+      <workItem from="1680059105600" duration="3481000" />
+      <workItem from="1680490466027" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: 템플릿을 사용하여 URL로 질문 데이터 조회 및 답변 기능 개발">
       <created>1679889878464</created>
@@ -124,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680060516444</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chore: 템플릿 상속을 통해 pybo html을 표준 html 구조로 변경, style.css 내용 삭제">
+      <created>1680062813087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680062813087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Feat: 템플릿을 사용하여 URL로 질문 데이터 조회 및 답변 기능 개발" />
     <MESSAGE value="Fix: bootstrap을 사용하여 페이지 디자인 변경(css 사용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: bootstrap을 사용하여 페이지 디자인 변경(css 사용)" />
+    <MESSAGE value="Chore: 템플릿 상속을 통해 pybo html을 표준 html 구조로 변경, style.css 내용 삭제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chore: 템플릿 상속을 통해 pybo html을 표준 html 구조로 변경, style.css 내용 삭제" />
   </component>
 </project>
