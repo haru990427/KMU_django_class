@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bd3e74f-b239-467c-b294-6a224adad81c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pybo/templatetags/pybo_filter.py" afterDir="false" />
+    <list default="true" id="1bd3e74f-b239-467c-b294-6a224adad81c" name="Changes" comment="Feat: 페이지네이션 구현">
+      <change afterPath="$PROJECT_DIR$/common/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/common/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/form_errors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pybo/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pybo/question_list.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -108,7 +113,8 @@
       <workItem from="1679886739242" duration="2344000" />
       <workItem from="1680059105600" duration="3481000" />
       <workItem from="1680490466027" duration="2838000" />
-      <workItem from="1680664058838" duration="2789000" />
+      <workItem from="1680664058838" duration="2880000" />
+      <workItem from="1681095676977" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="Feat: 템플릿을 사용하여 URL로 질문 데이터 조회 및 답변 기능 개발">
       <created>1679889878464</created>
@@ -145,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680666107909</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Feat: 페이지네이션 구현">
+      <created>1680667911515</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680667911515</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
