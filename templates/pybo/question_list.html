@@ -22,7 +22,10 @@
             <td class="text-center">
                 <a href="{% url 'pybo:detail' question.id %}">{{ question.subject }}</a>
                 {% if question.answer_set.count > 0 %}
-                <span class="text-danger small mx-2">{{ question.answer_set.count }}</span>
+                <span class="text-danger small mx-2">답변수: {{ question.answer_set.count }}</span>
+                {% endif %}
+                {% if question.comment_set.count > 0 %}
+                <span class="text-danger small mx-2">댓글수: {{ question.comment_set.count }}</span>
                 {% endif %}
             </td>
             <td>{{ question.author.username }}</td>  <!-- 글쓴이 추가 -->
